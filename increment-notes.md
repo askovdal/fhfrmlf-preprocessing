@@ -21,3 +21,4 @@
 * We would like to get an idea of the direction we want to go in - and start writing some code and explore the data
 * We want to formalize a concrete research question to aid us in our work
 * We want to make a plan for what we need to implement when
+* We want to define what a hidden feature in relation to our research
