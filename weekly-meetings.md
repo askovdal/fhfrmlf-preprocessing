@@ -4,14 +4,14 @@
 
 ### Date: 15 February 2022
 
-#### What did you achieve?
+#### What did we achieve?
 
 * Today we did blablabla
 
-#### What did you struggle with?
+#### What did we struggle with?
 
 * We had a hard time figuring out how to blabla
 
-#### What would you like to work on next week?
+#### What would we like to work on next week?
 
 * Blablabla
