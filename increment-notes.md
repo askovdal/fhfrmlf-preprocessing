@@ -16,6 +16,10 @@
 * It has been tough figuring out formal requirements? How long should the bachelor be, what style should the document be, what is required information?
 * Which direction do we want to go in first and work up from?
 
+#### Questions for meetings
+
+* Which ML library should we use?
+
 #### What would we like to work on next week?
 
 * We would like to get an idea of the direction we want to go in - and start writing some code and explore the data
