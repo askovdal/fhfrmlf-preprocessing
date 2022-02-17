@@ -1,8 +1,9 @@
 # Increment Notes
 
-* [15 February 2022](#date-15-february-2022)
+* [15 February](#date-15-february)
+* [17 February](#date-17-february)
 
-### Date: 15 February 2022
+### Date: 15 February
 
 #### What did we achieve?
 
@@ -15,12 +16,9 @@
 * We had a hard time figuring out what data to use and how much we need
 * It has been tough figuring out formal requirements? How long should the bachelor be, what style should the document be, what is required information?
 * Which direction do we want to go in first and work up from?
-
-#### Questions for meetings
-
 * Which ML library should we use?
 
-#### What would we like to work on next week?
+#### What would we like to work on next time?
 
 * We would like to get an idea of the direction we want to go in - and start writing some code and explore the data
 * We want to formalize a concrete research question to aid us in our work
@@ -29,26 +27,20 @@
 * Read "Hidden Stratification Causes Clinically Meaningful
 Failures in Machine Learning for Medical Imaging" and generate ideas
 
-
-
-* [17 February 2022](#date-17-february-2022)
-
-### Date: 17 February 2022
-
-
-#### TODO
-* Read "Hidden Stratification Causes Clinically Meaningful
-Failures in Machine Learning for Medical Imaging" and generate ideas
-
+### Date: 17 February
 
 #### What did we achieve?
+
 * Found repositories containing models for classifying pathologies
-* 
+* Read "Hidden Stratification Causes Clinically Meaningful Failures in Machine Learning for Medical Imaging" and generate ideas
+* Set up a coding environment where we can work together in the editor 🎉
 
+#### What did we struggle with?
 
-#### Questions for meetings
-* NA
+* Finding the definitions for the different columns in the .csv-file for the data 🕵️‍♂️
 
+#### What would we like to work on next time?
 
-#### What would we like to work on next week?
-* 
+* Use the models we found, and see if we can recreate the results
+* Create a subset of the data with only pneumothorax
+* Make a test case for one condition (pneumothorax) and one hidden feature (tube)
