@@ -26,3 +26,15 @@
 * We want to formalize a concrete research question to aid us in our work
 * We want to make a plan for what we need to implement when
 * We want to define what a hidden feature in relation to our research
+
+
+
+* [17 February 2022](#date-17-february-2022)
+
+### Date: 15 February 2022
+
+
+#### TODO
+* Read "Hidden Stratification Causes Clinically Meaningful
+Failures in Machine Learning for Medical Imaging" and generate ideas
+
