@@ -2,6 +2,7 @@
 
 * [15 February](#date-15-february)
 * [17 February](#date-17-february)
+* [22 February](#date-22-february)
 
 ### Date: 15 February
 
@@ -18,7 +19,7 @@
 * Which direction do we want to go in first and work up from?
 * Which ML library should we use?
 
-#### What would we like to work on next time?
+#### What would we like to work on?
 
 * We would like to get an idea of the direction we want to go in - and start writing some code and explore the data
 * We want to formalize a concrete research question to aid us in our work
@@ -39,8 +40,30 @@ Failures in Machine Learning for Medical Imaging" and generate ideas
 
 * Finding the definitions for the different columns in the .csv-file for the data 🕵️‍♂️
 
-#### What would we like to work on next time?
+#### What would we like to work on?
 
 * Use the models we found, and see if we can recreate the results
 * Create a subset of the data with only pneumothorax
 * Make a test case for one condition (pneumothorax) and one hidden feature (tube)
+
+### Date: 22 February
+
+#### What did we achieve?
+
+* Quick read paper architecture in Notion
+* Check pathology matrix to see if registered support devices are correlating with tubes for a pneumothorax
+* We have clarified that a drain tube does not lie under Support Devices 🥤 in the labels of the dataset, as we have found examples of the tubes appearing where the Support Devices label are categorized as both negative and positive.  
+* We have thoroughly read the Hidden Stratification paper, highlighted in categories and found out, what we want to implement
+* We have been trying to get a chexpert classifier work
+* We have come to terms with trying to check classification behaviour on chest drain and chest drain-less pictures
+
+#### What did we struggle with?
+
+* Making the number 1 solution to chexpert work in our favour
+
+#### What would we like to work?
+* Things not done from todo anno 17th of february
+* Get a classifier for chexpert to work (try the jupyter notebook one)
+* Get a division of datasets containing chest drains and no chest drains
+* Find out how they made the experiment for chest drain / no chest drain performance in the Hidden Strat paper
+* Start writing? 🤔
