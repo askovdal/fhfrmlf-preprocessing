@@ -3,6 +3,7 @@
 * [15 February](#date-15-february)
 * [17 February](#date-17-february)
 * [22 February](#date-22-february)
+* [24 February](#date-24-february)
 
 ### Date: 15 February
 
@@ -67,3 +68,22 @@ Failures in Machine Learning for Medical Imaging" and generate ideas
 * Get a division of datasets containing chest drains and no chest drains
 * Find out how they made the experiment for chest drain / no chest drain performance in the Hidden Strat paper
 * Start writing? 🤔
+
+
+### Date: 24 February
+
+#### What did we achieve?
+
+* Gotten #1 solution to work (classification model) - we just need to decompress the data
+* Begun writing the related work section
+
+#### What did we struggle with?
+
+* Everything
+
+#### What would we like to work?
+* Things not done from todo anno 17th of february
+* Get a classifier for chexpert to work (try the jupyter notebook one)
+* Get a division of datasets containing chest drains and no chest drains
+* Find out how they made the experiment for chest drain / no chest drain performance in the Hidden Strat paper
+* Continue writing? 🤔
