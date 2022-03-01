@@ -75,7 +75,7 @@ Failures in Machine Learning for Medical Imaging" and generate ideas
 
 #### What did we achieve?
 
-* Gotten #1 solution to work (classification model) - we just need to decompress the data
+* Gotten #1 solution to run (classification model) - we just need to decompress the data
 * Begun writing the related work section
 
 #### What did we struggle with?
