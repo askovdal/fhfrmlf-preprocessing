@@ -4,6 +4,7 @@
 * [17 February](#date-17-february)
 * [22 February](#date-22-february)
 * [24 February](#date-24-february)
+* [1 March](#date-1-march)
 
 ### Date: 15 February
 
@@ -87,3 +88,16 @@ Failures in Machine Learning for Medical Imaging" and generate ideas
 * Get a division of datasets containing chest drains and no chest drains
 * Find out how they made the experiment for chest drain / no chest drain performance in the Hidden Strat paper
 * Continue writing? 🤔
+
+
+### Date: 1 March
+
+#### What did we achieve?
+
+*
+
+#### What did we struggle with?
+
+* 
+#### What would we like to work?
+* 
