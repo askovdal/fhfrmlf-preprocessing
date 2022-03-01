@@ -93,11 +93,11 @@ Failures in Machine Learning for Medical Imaging" and generate ideas
 ### Date: 1 March
 
 #### What did we achieve?
-
-*
+* Got the classifier working and begun to move project to HPC environment.
 
 #### What did we struggle with?
+* Installing packages and getting data onto HPC
 
-* 
-#### What would we like to work?
-* 
+#### What would we like to work on?
+* Getting the data on HPC
+* Trying out the classifier in the HPC environment
