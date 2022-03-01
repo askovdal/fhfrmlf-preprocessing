@@ -100,4 +100,5 @@ Failures in Machine Learning for Medical Imaging" and generate ideas
 
 #### What would we like to work on?
 * Getting the data on HPC
+* Getting packages in our HPC environment (insufficient rights?)
 * Trying out the classifier in the HPC environment
