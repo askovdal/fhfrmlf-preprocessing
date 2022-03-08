@@ -129,6 +129,7 @@ Failures in Machine Learning for Medical Imaging" and generate ideas
 * Getting packages in our HPC environment (insufficient rights?)✔️
 
 #### What did we struggle with?
+* It looks like the large images are too big for the classifier to train on, so we are going to look at using the small images instead
 
 #### What would we like to work on?
 * We are going to use the pretrained model to initially test a subset of pneumothorax positive cases as test set and report performance
