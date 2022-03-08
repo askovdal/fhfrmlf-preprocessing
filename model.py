@@ -6,9 +6,7 @@ import pandas as pd
 pd.set_option('display.max_colwidth', 255)  # Increases column width to examine un-truncated strings
 
 data = pd.read_csv('train.csv')
-
-# Pneumothorax positive filter
-data_thorax = data.loc[data['Pneumothorax'] == 1.0]
+data = data[data['Path'].str.contains('frontal')]
 
 
 # Make a list of the file paths
@@ -32,4 +30,27 @@ def create_subset(df: pd.DataFrame, subset_name: str, length: int = 100):
         shutil.copy2('../' + file_path, subset_folder_name + '/' + file_name)
 
 
-create_subset(data_thorax, 'pneumothorax_positive')
+# Make a list of the file paths
+# Copy each one into a dir
+def create_subset_csv(df: pd.DataFrame, subset_name: str, length: str = 100):
+    # Remove folder, if it exists, then create new
+    subset_name = 'subsets/' + subset_name + '.csv'
+
+    # Filter to only include frontal x-rays
+    df = df[df['Path'].str.contains('frontal')]
+
+    # Create random sample
+    df = df.sample(n=length)
+
+    df.to_csv(subset_name, index=False)
+
+
+# Pneumothorax positive filter
+data_thorax_positive = data.loc[data['Pneumothorax'] == 1.0]
+data_thorax_negative = data.loc[data['Pneumothorax'] == 0.0]
+
+df_both = pd.concat([data_thorax_positive.sample(n=50), data_thorax_negative.sample(n=50)])
+create_subset_csv(df_both, 'pneumothorax-train-100-both')
+
+df_both = pd.concat([data_thorax_positive.sample(n=50), data_thorax_negative.sample(n=50)])
+create_subset_csv(df_both, 'pneumothorax-dev-100-both')
