@@ -122,7 +122,7 @@ Failures in Machine Learning for Medical Imaging" and generate ideas
 
 
 
-### Date: 7 March
+### Date: 8 March
 
 #### What did we achieve?
 * Getting the data on HPC✔️
