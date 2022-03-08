@@ -127,6 +127,7 @@ Failures in Machine Learning for Medical Imaging" and generate ideas
 #### What did we achieve?
 * Getting the data on HPC✔️
 * Getting packages in our HPC environment (insufficient rights?)✔️
+* Studied interpretations of chest x-rays, to get a better understanding of what we are looking at when identifying the different features of the images
 
 #### What did we struggle with?
 * It looks like the large images are too big for the classifier to train on, so we are going to look at using the small images instead
