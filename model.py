@@ -32,7 +32,7 @@ def create_subset(df: pd.DataFrame, subset_name: str, length: int = 100):
 
 # Make a list of the file paths
 # Copy each one into a dir
-def create_subset_csv(df: pd.DataFrame, subset_name: str, length: str = 100):
+def create_subset_csv(df: pd.DataFrame, subset_name: str, length: int = 100):
     # Remove folder, if it exists, then create new
     subset_name = 'subsets/' + subset_name + '.csv'
 
@@ -47,10 +47,13 @@ def create_subset_csv(df: pd.DataFrame, subset_name: str, length: str = 100):
 
 # Pneumothorax positive filter
 data_thorax_positive = data.loc[data['Pneumothorax'] == 1.0]
-data_thorax_negative = data.loc[data['Pneumothorax'] == 0.0]
 
-df_both = pd.concat([data_thorax_positive.sample(n=50), data_thorax_negative.sample(n=50)])
-create_subset_csv(df_both, 'pneumothorax-train-100-both')
+create_subset(data_thorax_positive, 'pneumothorax-positive', len(data_thorax_positive.index))
 
-df_both = pd.concat([data_thorax_positive.sample(n=50), data_thorax_negative.sample(n=50)])
-create_subset_csv(df_both, 'pneumothorax-dev-100-both')
+# data_thorax_negative = data.loc[data['Pneumothorax'] == 0.0]
+#
+# df_both = pd.concat([data_thorax_positive.sample(n=50), data_thorax_negative.sample(n=50)])
+# create_subset_csv(df_both, 'pneumothorax-train-100-both')
+#
+# df_both = pd.concat([data_thorax_positive.sample(n=50), data_thorax_negative.sample(n=50)])
+# create_subset_csv(df_both, 'pneumothorax-dev-100-both')
