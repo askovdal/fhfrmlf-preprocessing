@@ -132,6 +132,7 @@ Failures in Machine Learning for Medical Imaging" and generate ideas
 
 #### What would we like to work on?
 * We are going to use the pretrained model to initially test a subset of pneumothorax positive cases as test set and report performance
+   The model will be trained on the training data included in the code.
 * Then, we are going to make two subsets, 1 with tubes and 1 without and test it to report performance, tendencies and error audit in line with Laurens paper
 * Then we are going to brain storm about more intelligent test cases
 
