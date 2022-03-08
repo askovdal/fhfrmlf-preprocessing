@@ -86,7 +86,7 @@ Failures in Machine Learning for Medical Imaging" and generate ideas
 * Things not done from todo anno 17th of february
 * Get a classifier for chexpert to work (try the jupyter notebook one)
 * Get a division of datasets containing chest drains and no chest drains
-* Find out how they made the experiment for chest drain / no chest drain performance in the Hidden Strat paper
+* Find out how they made the experiment for chest drain / no chest drain performance in the Hidden Strat paper ✔️
 * Continue writing? 🤔
 
 
@@ -97,6 +97,21 @@ Failures in Machine Learning for Medical Imaging" and generate ideas
 
 #### What did we struggle with?
 * Installing packages and getting data onto HPC
+
+#### What would we like to work on?
+* Getting the data on HPC ✔️
+* Getting packages in our HPC environment (insufficient rights?) ✔️
+* Trying out the classifier in the HPC environment ✔️
+
+
+
+### Date: 3 March
+
+#### What did we achieve?
+* Got the infrastructure in HPC working with accessing data from a shared HPC folder, gotten packages installed
+
+#### What did we struggle with?
+* nothing really
 
 #### What would we like to work on?
 * Getting the data on HPC
