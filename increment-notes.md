@@ -116,8 +116,8 @@ Failures in Machine Learning for Medical Imaging" and generate ideas
 * nothing really
 
 #### What would we like to work on?
-* Getting the data on HPC
-* Getting packages in our HPC environment (insufficient rights?)
+* Getting the data on HPC✔️
+* Getting packages in our HPC environment (insufficient rights?)✔️
 * Trying out the classifier in the HPC environment
 
 
@@ -125,7 +125,13 @@ Failures in Machine Learning for Medical Imaging" and generate ideas
 ### Date: 7 March
 
 #### What did we achieve?
+* Getting the data on HPC✔️
+* Getting packages in our HPC environment (insufficient rights?)✔️
 
 #### What did we struggle with?
 
 #### What would we like to work on?
+* We are going to use the pretrained model to initially test a subset of pneumothorax positive cases as test set and report performance
+* Then, we are going to make two subsets, 1 with tubes and 1 without and test it to report performance, tendencies and error audit in line with Laurens paper
+* Then we are going to brain storm about more intelligent test cases
+
