@@ -5,6 +5,8 @@
 * [22 February](#date-22-february)
 * [24 February](#date-24-february)
 * [1 March](#date-1-march)
+* [3 March](#date-3-march)
+* [8 March](#date-8-march)
 
 ### Date: 15 February
 
@@ -117,3 +119,13 @@ Failures in Machine Learning for Medical Imaging" and generate ideas
 * Getting the data on HPC
 * Getting packages in our HPC environment (insufficient rights?)
 * Trying out the classifier in the HPC environment
+
+
+
+### Date: 7 March
+
+#### What did we achieve?
+
+#### What did we struggle with?
+
+#### What would we like to work on?
