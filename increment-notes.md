@@ -146,7 +146,11 @@ Failures in Machine Learning for Medical Imaging" and generate ideas
 * Trained and tested top1-chexpert classifier with pretraiend weights on the two pneumothorax subsets from last time
 
 **TEST SPECIFICATION:**  
-_The series of tests we are conduction on a small sample size is a combination of the following_
+_The series of tests we are conduction on a small sample size is a combination of the following_  
+
+Data generalities:  
+* The split between negative and positive pneumothorax cases should be 50/50, later it can be more complex
+* For cases of both tubes and no tubes, we do a (25% tube, 25% no tube | 50% negative) split
 
 A. Training data  
 * A.1 All data (Both tubes and no tubes)  
