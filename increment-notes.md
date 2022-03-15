@@ -145,7 +145,7 @@ Failures in Machine Learning for Medical Imaging" and generate ideas
 * Made two subsets, one with tubes and one without, and converted them into .csv-files
 * Trained and tested top1-chexpert classifier with pretraiend weights on the two pneumothorax subsets from last time
 
-**TEST SPECIFICATION:**
+**TEST SPECIFICATION:**  
 _The series of tests we are conduction on a small sample size is a combination of the following_
 
 A. Training data  
