@@ -145,6 +145,23 @@ Failures in Machine Learning for Medical Imaging" and generate ideas
 * Made two subsets, one with tubes and one without, and converted them into .csv-files
 * Trained and tested top1-chexpert classifier with pretraiend weights on the two pneumothorax subsets from last time
 
+TEST SPECIFICATION:
+The series of tests we are conduction on a small sample size is a combination of the following:
+
+   A. Training data
+      A.1 All data (Both tubes and no tubes)
+      A.2 Only with tubes
+      A.3 Only without tubes
+   
+   B. Test Data
+      B.1 All data (Both tubes and no tubes)
+      B.2 Only with tubes
+      B.3 Only without tubes
+      
+ These 9 different experimental settings will give us an idea of model performance, the influence of the hidden features (chest tubes) and how they impact predictions.
+ 
+ After gaining more insight we will find out what is ideal to do going forward.
+
 #### What did we struggle with?
 
 
