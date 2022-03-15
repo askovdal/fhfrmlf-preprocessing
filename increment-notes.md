@@ -7,6 +7,7 @@
 * [1 March](#date-1-march)
 * [3 March](#date-3-march)
 * [8 March](#date-8-march)
+* [15 March](#date-15-march)
 
 ### Date: 15 February
 
@@ -137,4 +138,15 @@ Failures in Machine Learning for Medical Imaging" and generate ideas
    The model will be trained on the training data included in the code.
 * Then, we are going to make two subsets, 1 with tubes and 1 without and test it to report performance, tendencies and error audit in line with Laurens paper
 * Then we are going to brain storm about more intelligent test cases
+
+### Date: 15 March
+
+#### What did we achieve?
+* Made two subsets, one with tubes and one without, and converted them into .csv-files
+* Trained and tested top1-chexpert classifier with pretraiend weights on the two pneumothorax subsets from last time
+
+#### What did we struggle with?
+
+
+#### What would we like to work on?
 
