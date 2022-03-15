@@ -143,7 +143,8 @@ Failures in Machine Learning for Medical Imaging" and generate ideas
 
 #### What did we achieve?
 * Made two subsets, one with tubes and one without, and converted them into .csv-files
-* Trained and tested top1-chexpert classifier with pretraiend weights on the two pneumothorax subsets from last time
+* Made Python scripts to create different subset CSVs from the images we examined for drainage tubes, both with and without
+* Examined a lot of x-rays with pneumothorax for drainage tubes, as this is the hidden feature we have chosen to start with looking at
 
 **TEST SPECIFICATION:**  
 _The series of tests we are conduction on a small sample size is a combination of the following_  
@@ -167,7 +168,8 @@ B. Test Data
  After gaining more insight we will find out what is ideal to do going forward.
 
 #### What did we struggle with?
-
+* There were a lot of other people using the HPC, so we didn't have acces to the desktop that we needed to train the classifier, as it uses a lot of VRAM. We're looking into getting acces to the red queue, were there are more beefy clusters available
 
 #### What would we like to work on?
+* 
 
