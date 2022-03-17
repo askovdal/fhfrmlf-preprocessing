@@ -172,7 +172,11 @@ B. Test Data
 * There were a lot of other people using the HPC, so we didn't have acces to the desktop that we needed to train the classifier, as it uses a lot of VRAM. We're looking into getting acces to the red queue, were there are more beefy clusters available
 
 #### What would we like to work on?
-* 
+*d
+
+
+#### Questions for next meeting
+* Regarding our test specification - how would we go about testing with and without tubes in relation to pneumothorax negative cases? - If we only removed tubes from positive cases, then it could be creating some underlying bias in regards to tubes that are not representative of real world tendencies.
 
 
 ### Date: 17 March
