@@ -8,6 +8,7 @@
 * [3 March](#date-3-march)
 * [8 March](#date-8-march)
 * [15 March](#date-15-march)
+* [17 March](#date-17-march)
 
 ### Date: 15 February
 
@@ -173,3 +174,14 @@ B. Test Data
 #### What would we like to work on?
 * 
 
+
+### Date: 17 March
+
+#### What did we achieve?
+* Today we examined more x-ray photos, this time of patients without Pneumothorax, and identified the images that had drain tubes in them, as that are the hidden featurethat we are focusing on.
+
+#### What did we struggle with?
+* The only desktop that we can use on the HPC cluster queue that we have access to is occupied, so we sadly can't train the classifier. We've contacted ITU to see if we can get access to the red queue, where there are more computing nodes that we can use for the training.
+
+#### What would we like to work on?
+* 
