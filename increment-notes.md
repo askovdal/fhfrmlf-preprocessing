@@ -178,14 +178,14 @@ B. Test Data
 ### Date: 17 March
 
 #### What did we achieve?
-* Today we examined more x-ray photos, this time of patients without Pneumothorax, and identified the images that had drain tubes in them, as that are the hidden featurethat we are focusing on.
+* Today we examined more x-ray photos, this time of patients without Pneumothorax, and identified the images that had drain tubes in them, as that are the hidden feature that we are focusing on.
+* We created all the subsets detailed in the test specification, so we are ready to train and test the classifier on the different combinations and study the outcomes.
 
 #### What did we struggle with?
 * The only desktop that we can use on the HPC cluster queue that we have access to is occupied, so we sadly can't train the classifier. We've contacted ITU to see if we can get access to the red queue, where there are more computing nodes that we can use for the training.
 
 #### What would we like to work on?
-* 
-
+* If we can get access to the computing nodes on the HPC, we can use one of the clusters to get results from the classifier and start our research?? Pray for Lottie 🙏
 
 #### Questions for next meeting
 * Regarding our test specification - how would we go about testing with and without tubes in relation to pneumothorax negative cases? - If we only removed tubes from positive cases, then it could be creating some underlying bias in regards to tubes that are not representative of real world tendencies.
