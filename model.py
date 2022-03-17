@@ -46,11 +46,13 @@ def create_subset_csv(df: pd.DataFrame, subset_name: str, length: int = 100):
 
 
 # Pneumothorax positive filter
-data_thorax_positive = data.loc[data['Pneumothorax'] == 1.0]
+# data_thorax_positive = data.loc[data['Pneumothorax'] == 1.0]
 
-create_subset(data_thorax_positive, 'pneumothorax-positive', len(data_thorax_positive.index))
+# create_subset(data_thorax_positive, 'pneumothorax-positive', len(data_thorax_positive.index))
 
-# data_thorax_negative = data.loc[data['Pneumothorax'] == 0.0]
+data_thorax_negative = data.loc[data['Pneumothorax'] == 0.0]
+create_subset(data_thorax_negative, 'pneumothorax-negative', 2000)
+
 #
 # df_both = pd.concat([data_thorax_positive.sample(n=50), data_thorax_negative.sample(n=50)])
 # create_subset_csv(df_both, 'pneumothorax-train-100-both')

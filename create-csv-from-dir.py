@@ -49,5 +49,5 @@ def create_csv_from_dir(dir_name: str, csv_name: str, suffix='', length: int = N
     dir_df.to_csv(csv_name, index=False)
 
 
-create_csv_from_dir('subsets/pneumothorax-positive', 'subsets/pneumothorax-positive-w-tube.csv', '_TUBE', 200, False)
-create_csv_from_dir('subsets/pneumothorax-positive', 'subsets/pneumothorax-positive-wo-tube.csv', '_TUBE', 200, True)
+create_csv_from_dir('subsets/pneumothorax-positive', 'subsets/pneumothorax-positive-w-tube.csv', '_TUBE', 300, False)
+create_csv_from_dir('subsets/pneumothorax-positive', 'subsets/pneumothorax-positive-wo-tube.csv', '_TUBE', 300, True)
