@@ -8,7 +8,7 @@
 * [3 March](#date-3-march)
 * [8 March](#date-8-march)
 * [15 March](#date-15-march)
-* [17 March](#date-17-march)
+* [22 March](#date-22-march)
 
 ### Date: 15 February
 
@@ -189,3 +189,14 @@ B. Test Data
 
 #### Questions for next meeting
 * Regarding our test specification - how would we go about testing with and without tubes in relation to pneumothorax negative cases? - If we only removed tubes from positive cases, then it could be creating some underlying bias in regards to tubes that are not representative of real world tendencies.
+
+### Date: 22 March
+
+#### What did we achieve?
+* We started training and testing on the subsets mentioned last time
+
+#### What did we struggle with?
+
+#### What would we like to work on?
+
+#### Questions for next meeting
