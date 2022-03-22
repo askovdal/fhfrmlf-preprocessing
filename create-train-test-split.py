@@ -10,8 +10,8 @@ def create_train_test_split(csv_name):
 
     train, test = train_test_split(df, train_size=0.8)
 
-    train.to_csv(csv_name.replace('.csv', '') + '-train.csv')
-    test.to_csv(csv_name.replace('.csv', '') + '-test.csv')
+    train.to_csv(csv_name.replace('.csv', '') + '-train.csv', index=False)
+    test.to_csv(csv_name.replace('.csv', '') + '-test.csv', index=False)
 
 
-create_train_test_split('subsets/pneumothorax-positive-tube-split.csv')
+create_train_test_split('subsets/pneumothorax-mixed-p-tube-split.csv')
