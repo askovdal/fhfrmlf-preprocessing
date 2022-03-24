@@ -194,9 +194,11 @@ B. Test Data
 
 #### What did we achieve?
 * We started training and testing on the subsets mentioned last time
+* We began writing on the data, specifically chexpert, defined hidden features 📝
 
 #### What did we struggle with?
+* Kasper was down bad with influenza 🫠😩
+* We struggled with getting the top1-chexpert scripts to work, but we figured it out in the end
 
 #### What would we like to work on?
-
-#### Questions for next meeting
+* Produce some concrete results from the test specifications
