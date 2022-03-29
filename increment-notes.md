@@ -9,6 +9,7 @@
 * [8 March](#date-8-march)
 * [15 March](#date-15-march)
 * [22 March](#date-22-march)
+* [29 March](#date-29-march)
 
 ### Date: 15 February
 
@@ -202,3 +203,8 @@ B. Test Data
 
 #### What would we like to work on?
 * Produce some concrete results from the test specifications
+
+### Date: 29 March
+
+#### What did we achieve?
+* We got results from the top1 classifier, training and testing on multiple different subsets of the data. We created a benchmark set with 20k random images from the dataset.
