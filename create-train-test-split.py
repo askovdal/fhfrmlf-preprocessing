@@ -14,4 +14,4 @@ def create_train_test_split(csv_name):
     test.to_csv(csv_name.replace('.csv', '') + '-test.csv', index=False)
 
 
-create_train_test_split('subsets/20k.csv')
+create_train_test_split('subsets/pneumothorax-mixed-p-wo-tube.csv')

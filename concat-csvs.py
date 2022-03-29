@@ -21,13 +21,13 @@ def concat_csvs(name1, name2, out_name, frac=1.0):
 
 
 concat_csvs('subsets/pneumothorax-positive-w-tube.csv', 'subsets/pneumothorax-negative.csv',
-            'subsets/pneumothorax-mixed-p-w-tube.csv', 0.5)
+            'subsets/pneumothorax-mixed-p-w-tube.csv', 1)
 
 concat_csvs('subsets/pneumothorax-positive-wo-tube.csv', 'subsets/pneumothorax-negative.csv',
-            'subsets/pneumothorax-mixed-p-wo-tube.csv', 0.5)
+            'subsets/pneumothorax-mixed-p-wo-tube.csv', 1)
 
 concat_csvs('subsets/pneumothorax-positive-w-tube.csv', 'subsets/pneumothorax-positive-wo-tube.csv',
-            'subsets/pneumothorax-positive-tube-split.csv', 0.25)
+            'subsets/pneumothorax-positive-tube-split.csv', 0.5)
 
 concat_csvs('subsets/pneumothorax-positive-tube-split.csv', 'subsets/pneumothorax-negative.csv',
             'subsets/pneumothorax-mixed-p-tube-split.csv')
