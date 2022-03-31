@@ -10,6 +10,8 @@
 * [15 March](#date-15-march)
 * [22 March](#date-22-march)
 * [29 March](#date-29-march)
+* [31 March](#date-31-march)
+
 
 ### Date: 15 February
 
@@ -208,3 +210,17 @@ B. Test Data
 
 #### What did we achieve?
 * We got results from the top1 classifier, training and testing on multiple different subsets of the data. We created a benchmark set with 20k random images from the dataset.
+
+### Date: 31 March
+
+#### What did we achieve?
+* So much(!!!)
+* We got performance metrics for various test specification test cases (baseline, only with tubes, only without tubes), with results that indicates that our hypothesis (taken from the hidden strat paper) were right 🎉🎉 - i.e. the performance on tubes is significantly better than without tubes. 
+* We have begun writing about the theoretical architecture of our model (PCAM pooling and medical imaging applicability)
+* 
+
+#### What did we struggle with?
+* A lot of people are using the HPC compute nodes, so we couldn't use as many resources as we would like, which resulted in the training and testng taking quite a bit longer than optimal. Hopefully people will stop using as many compute nodes at the same time 🙏
+
+#### What would we like to work on?
+* We can now begin to look into starting the next part of our thesis, which is looking into identifying the hidden features in the x-rays. 
