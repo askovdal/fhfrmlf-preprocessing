@@ -11,6 +11,7 @@
 * [22 March](#date-22-march)
 * [29 March](#date-29-march)
 * [31 March](#date-31-march)
+* [5 April](#date-5-April)
 
 
 ### Date: 15 February
@@ -224,3 +225,26 @@ B. Test Data
 
 #### What would we like to work on?
 * We can now begin to look into starting the next part of our thesis, which is looking into identifying the hidden features in the x-rays. 
+
+
+### Date: 5 April
+
+#### What did we achieve?
+* We've considered the following in regards to our tests:
+**Test/verify if the hidden feature performance is training induced** - It would be interesting to verify if the hightened performance is training induced, i.e. how does it perform if we remove the the tubes from the training data? Our hypothesis is, that our performance on the clinical significant cases (i.e. non-treated/no tube patients) will increase.
+
+This however, requires more extensive image-level labelling to gain enough data to make sound training, as we have to confirm that no tubes are apparent.
+
+* We are going to have a look (pre-meeting) at the heatmaps to see, if we can gain an insight in, where on the x-rays our model assign a high possibility of a patient being pneumothorax positive.
+
+* Something to discuss that we can't test - how would the model perform, if a patient has had a chest drain for another reason than a pneumothorax? Do we expect it to highten the chance of a false positive classification?
+
+* Something to talk about - we have randomized our test set to make sure the order of samples doesn't influience the classification.
+
+* How would we go about finding tubes? What are some possible approaches?
+
+#### What did we struggle with?
+* 
+
+#### What would we like to work on?
+* 
