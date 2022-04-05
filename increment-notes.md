@@ -243,6 +243,8 @@ This however, requires more extensive image-level labelling to gain enough data 
 
 * How would we go about finding tubes? What are some possible approaches?
 
+* In doubt about how much we should write about the model as compared to the experiments itself? We have been used to writing about the models, but it seems like it is of less importance when comparing to related research.
+
 #### What did we struggle with?
 * 
 
