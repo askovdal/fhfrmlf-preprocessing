@@ -245,8 +245,5 @@ This however, requires more extensive image-level labelling to gain enough data 
 
 * In doubt about how much we should write about the model as compared to the experiments itself? We have been used to writing about the models, but it seems like it is of less importance when comparing to related research.
 
-#### What did we struggle with?
-* 
-
 #### What would we like to work on?
-* 
+* We are going to evaluate more on our results, and write down what we have learned from our experiments.
