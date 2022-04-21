@@ -12,6 +12,7 @@
 * [29 March](#date-29-march)
 * [31 March](#date-31-march)
 * [5 April](#date-5-April)
+* [21 April](#date-5-April)
 
 
 ### Date: 15 February
@@ -247,3 +248,20 @@ This however, requires more extensive image-level labelling to gain enough data 
 
 #### What would we like to work on?
 * We are going to evaluate more on our results, and write down what we have learned from our experiments.
+
+
+### Date: 21 April
+
+#### What did we achieve?
+* We've made an effort to write our thesis, organise papers and mapped out the structure of the report
+Most notably, we are focusing currently on the related works and results, and will be moving on from there
+
+
+#### What would we like to work on?
+* We want to further evaluate our results and begin the discussion part of the paper
+
+#### Questions for Veronika
+* What is meant by evaluation?
+* Do we need more experiments to report?
+* Can the methods section be rephrased to data and models?
+
