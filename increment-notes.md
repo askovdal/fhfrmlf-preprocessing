@@ -13,6 +13,7 @@
 * [31 March](#date-31-march)
 * [5 April](#date-5-April)
 * [21 April](#date-5-April)
+* [26 April](#date-26-April)
 
 
 ### Date: 15 February
@@ -256,7 +257,6 @@ This however, requires more extensive image-level labelling to gain enough data 
 * We've made an effort to write our thesis, organise papers and mapped out the structure of the report
 Most notably, we are focusing currently on the related works and results, and will be moving on from there
 
-
 #### What would we like to work on?
 * We want to further evaluate our results and begin the discussion part of the paper
 
@@ -265,3 +265,13 @@ Most notably, we are focusing currently on the related works and results, and wi
 * Do we need more experiments to report?
 * Can the methods section be rephrased to data and models?
 
+### Date: 26 April
+
+#### What did we achieve?
+* We have continued writing about the theory of the models we use, and our results.
+* We have created another expirement, using the 3 best classifiers from our training process, and generating probabilities from all of them for each test image, which says something about the uncertainty of our classifier.
+
+#### What would we like to work on?
+
+#### What did we struggle with?
+* We aren't quite sure what we can deduce from our expirement with our "ensemble classifier" - can we draw any conclusions from it? 
