@@ -272,6 +272,7 @@ Most notably, we are focusing currently on the related works and results, and wi
 * We have created another expirement, using the 3 best classifiers from our training process, and generating probabilities from all of them for each test image, which says something about the uncertainty of our classifier.
 
 #### What would we like to work on?
+* Describe more about our experiments, discus our results
 
 #### What did we struggle with?
 * We aren't quite sure what we can deduce from our expirement with our "ensemble classifier" - can we draw any conclusions from it? 
