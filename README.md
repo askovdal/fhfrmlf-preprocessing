@@ -12,6 +12,8 @@ The `subsets` folder contains the different CSV-files created using the scripts 
 
 ## Script overview
 
+Run a script using python 3 in the terminal, e.g. `python3 model.py`.
+
 ### model.py
 Contains the logic for creating subsets of the main CSV-file of the whole dataset (train.csv), both as new CSV-files and
 as directories containing the actual image files.
