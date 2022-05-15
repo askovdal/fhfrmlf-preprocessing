@@ -2,7 +2,7 @@
 
 This repository contains the scripts used for creating subsets of the 
 [CheXpert dataset](https://stanfordmlgroup.github.io/competitions/chexpert/), a large dataset of chest X-rays,
-used for training and testing the model in [askovdal/top1-chexpert](https://github.com/askovdal/top1-chexpert), which is 
+used for training and testing the model in [askovdal/fhfrmlf-model](https://github.com/askovdal/fhfrmlf-model), which is 
 forked from [jfhealthcare/Chexpert](https://github.com/jfhealthcare/Chexpert), and 
 refactored to train only on predicting pneumothorax cases.
 
